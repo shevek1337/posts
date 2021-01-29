@@ -191,16 +191,11 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    margin-left: -100%;
-    width: 100%;
+        margin-left: -180px;
+    width: auto;
     bottom: 10px;
     cursor: pointer;
+    height: auto;
   }
   .icons:hover {
     display: -webkit-box;
