@@ -177,6 +177,9 @@
     display: -ms-flexbox !important;
     display: flex !important;
   }
+  .btn-back {
+    padding: 10px;
+  }
   .modal {
     padding-top: 100px;
   }

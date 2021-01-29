@@ -35,9 +35,9 @@ const Post = () => {
               <i className="fas fa-undo fa-sm"></i> Back
             </button>
           </div>
-          <div className="single-post-buttons">
+          <div className="single-post-buttons d-flex align-items-center">
             <button
-              className="btn btn-md icon fw-bold btn-lg"
+              className="btn btn-md icon fw-bold btn-sm"
               onClick={() => {
                 setPostId(post.id);
                 setPostTitle(post.title);
@@ -47,7 +47,7 @@ const Post = () => {
             >
               <i className="far fa-edit text-dark"></i> Edit
             </button>
-            <button className="btn btn-md icon fw-bold btn-lg">
+            <button className="btn btn-md icon fw-bold btn-sm">
               <i className="far fa-trash-alt text-danger"></i> Remove
             </button>
           </div>
