@@ -45,7 +45,7 @@ const Add = () => {
                 <input
                   type="text"
                   className="form-control"
-                  id="title"
+                  id="newTitle"
                   value={postTitle}
                   placeholder="New Post Title"
                   onChange={(e) => setPostTitle(e.target.value)}
