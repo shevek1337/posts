@@ -54,6 +54,16 @@
 }
 .single-post-buttons {
   width: auto;
+  button {
+    &:hover {
+      background-color: #ececec;
+    }
+  }
+}
+.btn-back {
+  &:hover {
+    background-color: #ececec;
+  }
 }
 .comment {
   border: none;

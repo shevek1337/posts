@@ -63,6 +63,14 @@
   width: auto;
 }
 
+.single-post-buttons button:hover {
+  background-color: #ececec;
+}
+
+.btn-back:hover {
+  background-color: #ececec;
+}
+
 .comment {
   border: none;
 }
@@ -191,7 +199,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-        margin-left: -180px;
+    margin-left: -180px;
     width: auto;
     bottom: 10px;
     cursor: pointer;

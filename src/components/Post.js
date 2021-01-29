@@ -18,7 +18,8 @@ const Post = () => {
   useEffect(() => {
     fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
       .then((response) => response.json())
-      .then((json) => setPost(json));
+      .then((json) => setPost(json))
+      .then(window.scrollTo(0, 0));
     // eslint-disable-next-line
   }, []);
 
@@ -28,7 +29,7 @@ const Post = () => {
         <div className="row mb-1">
           <div className="col">
             <button
-              className="btn fw-bold btn-lg"
+              className="btn fw-bold btn-lg btn-back"
               onClick={() => history.push("/")}
             >
               <i className="fas fa-undo fa-sm"></i> Back
