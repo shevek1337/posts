@@ -213,5 +213,8 @@
     display: -ms-flexbox;
     display: flex;
   }
+  .icons button:hover {
+    background: #ececec;
+  }
 }
 /*# sourceMappingURL=index.css.map */

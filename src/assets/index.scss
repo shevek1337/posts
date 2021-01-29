@@ -182,5 +182,10 @@
     &:hover {
       display: flex;
     }
+    button {
+      &:hover {
+        background: #ececec;
+      }
+    }
   }
 }
