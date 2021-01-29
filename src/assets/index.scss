@@ -161,12 +161,11 @@
     display: none;
     position: absolute;
     flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin-left: -100%;
-    width: 100%;
+    margin-left: -180px;
+    width: auto;
     bottom: 10px;
     cursor: pointer;
+    height: auto;
     &:hover {
       display: flex;
     }
